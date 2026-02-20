@@ -1,0 +1,24 @@
+{
+  "name": "@yougotagift/product-card",
+  "version": "1.0.0",
+  "description": "Product card component imported from Figma design",
+  "main": "src/ProductCard.jsx",
+  "keywords": [
+    "product-card",
+    "figma",
+    "react",
+    "ui-component",
+    "yougotagift"
+  ],
+  "author": "YOUGotaGift",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "figma": {
+    "sourceUrl": "https://www.figma.com/design/n5A0TkfpGovf4o3UwRrMga/File-2?node-id=2-2&t=UUbDki5QzuXRDpw0-0",
+    "nodeId": "2:2",
+    "componentName": "Tomato"
+  }
+}
