@@ -1,6 +1,14 @@
 # YOUGotaGift Digital Card UI
 
-Modern, responsive digital gift card UI component for the YOUGotaGift platform.
+Modern, responsive UI components for the YOUGotaGift platform.
+
+## Components
+
+### 1. Digital Gift Card
+Modern digital gift card with premium visual effects.
+
+### 2. Product Card
+Clean product display card imported from Figma design.
 
 ## Features
 
@@ -9,6 +17,7 @@ Modern, responsive digital gift card UI component for the YOUGotaGift platform.
 - 📱 Fully responsive
 - ✨ Premium visual effects (shine, shadows, patterns)
 - 🔒 Masked card numbers for security
+- 🛍️ Product card with image and details
 - ♿ Accessible design
 
 ## Design Specifications
@@ -20,12 +29,23 @@ Modern, responsive digital gift card UI component for the YOUGotaGift platform.
 
 ## Component Structure
 
+### Digital Gift Card
 ```
 DigitalGiftCard/
 ├── Header (Logo + Badge)
 ├── Center (Amount + Icon)
 ├── Bottom (Recipient, Sender, Card Number, Validity)
 └── Visual Elements (Gradient overlay, QR code, CTA)
+```
+
+### Product Card (Imported from Figma)
+```
+ProductCard/
+├── Product Image (Top section)
+└── Product Info
+    ├── Product Name
+    ├── Price + Unit
+    └── Description
 ```
 
 ## Installation
@@ -42,6 +62,7 @@ npm start
 
 ## Component Props
 
+### DigitalGiftCard
 ```jsx
 <DigitalGiftCard
   amount="100"
@@ -51,6 +72,18 @@ npm start
   cardNumber="1234567812345678"
   validUntil="2026-12-31"
   onRedeem={() => console.log('Redeem clicked')}
+/>
+```
+
+### ProductCard (from Figma)
+```jsx
+<ProductCard
+  productName="Fresh Heirloom tomato"
+  price="$12.99"
+  unit="lb"
+  description="Grown in San Juan Capistrano, CA"
+  imageUrl="https://example.com/image.jpg"
+  imageAlt="Product image"
 />
 ```
 
