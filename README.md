@@ -2,13 +2,36 @@
 
 Modern, responsive UI components for the YOUGotaGift platform.
 
+## Repository Structure
+
+```
+digital-gift-card-ui/
+├── src/
+│   ├── components/
+│   │   ├── DigitalGiftCard.jsx
+│   │   └── DigitalGiftCard.css
+│   ├── App.jsx
+│   └── index.js
+└── figma-components/
+    └── product-card/
+        ├── src/
+        │   ├── ProductCard.jsx
+        │   ├── ProductCard.css
+        │   └── Demo.jsx
+        ├── README.md
+        └── package.json
+```
+
 ## Components
 
 ### 1. Digital Gift Card
 Modern digital gift card with premium visual effects.
+- **Location:** `src/components/DigitalGiftCard.jsx`
 
-### 2. Product Card
+### 2. Product Card (from Figma)
 Clean product display card imported from Figma design.
+- **Location:** `figma-components/product-card/`
+- **Figma Source:** [View Design](https://www.figma.com/design/n5A0TkfpGovf4o3UwRrMga/File-2?node-id=2-2)
 
 ## Features
 
